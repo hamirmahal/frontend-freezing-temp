@@ -1,10 +1,16 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
-    "types": ["vitest/importMeta"],
+    "types": [
+      "vitest/importMeta"
+    ],
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
@@ -19,8 +25,11 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
-    }
+      "@/*": [
+        "./*"
+      ]
+    },
+    "target": "ES2017"
   },
   "include": [
     "next-env.d.ts",
@@ -29,5 +38,7 @@
     ".next/types/**/*.ts",
     "vite.config.mts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }
